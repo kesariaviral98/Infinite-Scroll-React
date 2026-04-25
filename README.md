@@ -42,6 +42,12 @@ npm run build
 npm run lint
 ```
 
+### 5. Preview the production build
+
+```bash
+npm run preview
+```
+
 ## Project Structure
 
 ```text
@@ -77,3 +83,5 @@ git push -u origin main
 ## Notes
 
 The repository currently contains `node_modules` locally, but `.gitignore` now excludes it so it will not be added in future commits.
+
+The demo keeps the scroll behavior inside React state and browser APIs, so there is no backend setup required.
